@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Royal Suisse | Contact</title>
+        <meta name="author" content="Lamya Dollar">
+        <meta name="description" content="contact page for a resort company in the swiss alps">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- Google Fonts Links -->
+        <link rel="stylesheet" href="https://use.typekit.net/aup8fbi.css">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+
+    <body>
+        <header>
+                <h1><a href="index.html">Royal Suisse</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Accommodations</a></li>
+                        <li><a href="#" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+
+            <img src="images/swiss-valley.jpg" alt="river flowing through a lush green valley surrounded by mountains in the distance" height="560" width="1440">
+        </header>
+
+        <main>
+            <section id="contact">
+                <div id="text">
+                    <h2>Contact Us</h2>
+                    <p>
+                        Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                        Required fields marked with a <span class="required">*</span>
+                    </p>
+                    <img src="images/swiss-peak.jpg" alt="river flowing through a lush dense forest with towering mountains in the background" width="350" height="455">
+                </div>
+
+                <div id="form">
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                        <label for="my-name">Full Name:<span class="required">*</span></label>
+                        <input type="text" name="my-name" id="my-name" required>
+
+                        <label for="my-email">Email:<span class="required">*</span></label>
+                        <input type="email" name="my-email" id="my-email" required>
+
+                        <label for="my-phone">Phone Number:<span class="required">*</span></label>
+                        <input type="tel" name="my-phone" id="my-phone" required>
+
+                        <fieldset>
+                            <legend>Preferred Contact Method:<span class="required">*</span></legend>
+                            
+                            <input type="radio" name="pref-contact" id="phone" value="phone" required checked>
+                            <label for="phone">Phone</label>
+
+                            <input type="radio" name="pref-contact" id="email" value="email">
+                            <label for="email">Email</label>
+                        </fieldset>
+
+                        <label for="my-comments">Comments:<span class="required">*</span></label>
+                        <textarea name="my-comments" id="my-comments" required></textarea>
+
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Royal Suisse</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
